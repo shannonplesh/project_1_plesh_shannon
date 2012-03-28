@@ -143,6 +143,21 @@ return editNodeText(/^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/, inputFiel
 				
 				</li> 
 			</ul>
+			<legend>Use slider to select the level of media coverage durring aftermath</legend>
+			<ul>
+				<li><input type="range" min="-100" max="100" value="0" step="10" name="power" list="powers">
+<datalist id="powers">
+  <option value="0">
+  <option value="-30">
+  <option value="30">
+  <option value="+50">
+</datalist> 
+				
+				</li> 
+			</ul>
+
+			
+			
 					</fieldset>
 
 		
@@ -150,7 +165,7 @@ return editNodeText(/^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/, inputFiel
   			  			<footer></footer>
   		</div>
   		<li><a href="index.html">Home</a>
- 		<li><a href="#">Reload</a> 
+ 		<li><a href="additem.html">Clear form data</a> 
 </body>
 
 </html>
